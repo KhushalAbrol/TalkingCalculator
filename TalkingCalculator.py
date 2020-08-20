@@ -2,7 +2,7 @@ import pyttsx3 as p
 
 def Operation(opt, n1, n2):
     switcher = {
-        "a": n1*n1,
+        "a": n1*n2,
         "b": n1/n2,
         "c": n1+n2,
         "d": n1-n2
